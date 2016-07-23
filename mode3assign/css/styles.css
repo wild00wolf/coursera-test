@@ -1,0 +1,160 @@
+body {
+	font-size:13px;
+	color:#fff;
+	background-color: #f5e4e1;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header-nav{
+	background-color: #84cdef;
+	border-radius: 0;
+	border: 0;
+  line-height: 200px
+
+}
+
+.navbar-brand {
+  padding-top: 37px;
+  height: 100px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #466675;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {  /* focus is like highlighted */
+  text-decoration: none;   /* remove underline for links */
+}
+
+.navbar-brand p span {
+  vertical-align:middle;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #466675;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #f5e4e1;
+}
+
+.navbar-brand button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-toggle {
+  margin-top: 13px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #466675;
+  text-align: center;
+}
+
+#nav-list a:hover {        /* highlight the menu items*/
+  background: #f5e4e1;
+}
+
+#nav-list a  {
+  font-size: 1.8em;
+}
+/* END HEADER */
+
+
+/* CONTENT */
+.row {
+  margin: 0px;
+}
+
+.page-header {
+  border-bottom-style: none 
+}
+
+h2 {
+  color:#000000;
+  font-weight: bold;
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+p {
+  color: #d2d2d2;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 15px;
+
+}
+
+#col {
+  background-color: #466675;
+  margin-bottom: 15px;
+}
+
+#return {
+  font-size: 12px;
+  color: #d2d2d2;
+  float: right;
+  margin:15px;
+}
+/* END CONTENT */
+
+/****************** Large (Desktop) only ****************/
+@media (min-width: 1200px){
+
+
+}
+
+/****************** Medium devices (Desktop) only ****************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
+
+/********** Small devices (Tablets) only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/********** Extra small (Phones) devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+ 
+  .navbar-brand {
+   padding-top: 20px;
+   height: 60px;
+  }
+
+  .navbar-brand h1 {
+   font-size: 1.5em;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+   font-size: 1.8em;
+   line-height: 25px
+  }
+  
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+  }
+  /* End Header */
+}  
